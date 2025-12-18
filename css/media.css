@@ -1,0 +1,225 @@
+/* sm 576px -->      */
+@media screen and (min-width:576px) {
+    .sm-50 {
+        width: 50%;
+    }
+
+    .sm-33 {
+        width: 33.333%;
+    }
+
+    .sm-25 {
+        width: 25%;
+    }
+
+    .sm-20 {
+        width: 20%;
+    }
+
+    .sm-16 {
+        width: 16.66%;
+    }
+
+}
+
+/* md 768px  -->    */
+@media screen and (min-width:768px) {
+    .md-50 {
+        width: 50%;
+    }
+
+    .md-33 {
+        width: 33.333%;
+    }
+
+    .md-25 {
+        width: 25%;
+    }
+
+    .md-20 {
+        width: 20%;
+    }
+
+    .md-16 {
+        width: 16.66%;
+    }
+    .width-curser{
+    width: 70%;
+}
+
+}
+
+/* lg 992px  -->       */
+@media screen and (min-width:992px) {
+    .lg-50 {
+        width: 50%;
+    }
+
+    .lg-33 {
+        width: 33.333%;
+    }
+
+    .lg-25 {
+        width: 25%;
+    }
+
+    .lg-20 {
+        width: 20%;
+    }
+
+    .lg-16 {
+        width: 16.66%;
+    }
+
+    .w-div {
+        width: 85%;
+    }
+
+    .height-ul {
+        height: auto;
+        overflow: visible;
+    }
+
+    .width-drop {
+        width: 1200px;
+        transform: translateX(-50%);
+        height: auto;
+    }
+
+    .mt-6 {
+        margin-top: 0px;
+    }
+
+    .titleProperties p::before {
+        left: 32%;
+    }
+
+    .titleProperties p::after {
+        right: 32%;
+    }
+
+    .height-ul li {
+        padding: 0px 0px;
+        border-radius: 0px;
+    }
+
+    .height-ul li:hover {
+        background-color: transparent;
+    }
+
+    .height-ul li a:hover {
+        color: transparent;
+    }
+
+    .HoverNav {
+        transition: all 0.3s;
+        padding-bottom: 5px;
+        color: oklch(37.2% .044 257.287);
+        position: relative;
+        padding-inline: 0px;
+        font-weight: 400;
+
+    }
+
+    .HoverNav:hover,
+    .HoverNav.active,
+    .HoverNav.show {
+        color: #7c3aed !important;
+
+    }
+
+    .HoverNav.active,
+    .HoverNav.show {
+        font-weight: 700;
+    }
+
+    .HoverNav::before {
+        content: "";
+        width: 0px;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #8856F4;
+        transition: all 0.3s;
+    }
+
+    .HoverNav:hover::before,
+    .HoverNav.active::before,
+    .HoverNav.HoverNav.show {
+        width: 100%;
+    }
+
+
+}
+
+/* xl 1200px  -->       */
+@media screen and (min-width:1200px) {
+    .xl-50 {
+        width: 50%;
+    }
+
+    .xl-33 {
+        width: 33.333%;
+    }
+
+    .xl-25 {
+        width: 25%;
+    }
+
+    .xl-20 {
+        width: 20%;
+    }
+
+    .xl-16 {
+        width: 16.66%;
+    }
+
+    .w-div {
+        width: 65%;
+    }
+
+    .width-drop {
+        width: 1200px;
+        transform: translateX(-55%);
+    }
+
+    .edit-Model {
+        width: 75%;
+    }
+}
+
+/* xxl 1400px  -->       */
+@media screen and (min-width:1400px) {
+    .xxl-50 {
+        width: 50%;
+    }
+
+    .xxl-33 {
+        width: 33.333%;
+    }
+
+    .xxl-25 {
+        width: 25%;
+    }
+
+    .xxl-20 {
+        width: 20%;
+    }
+
+    .xxl-16 {
+        width: 16.66%;
+    }
+
+    .w-div {
+        width: 45%;
+    }
+
+    .titleProperties p::before {
+        left: 37%;
+    }
+
+    .titleProperties p::after {
+        right: 37%;
+    }
+}
